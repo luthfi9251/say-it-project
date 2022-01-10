@@ -1,0 +1,65 @@
+.chat-body h6 {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+.chat-body .answer.left {
+  padding: 0 0 0 58px;
+  text-align: left;
+  float: left;
+}
+.chat-body .answer {
+  position: relative;
+  max-width: 600px;
+  overflow: hidden;
+  clear: both;
+}
+.chat .avatar img {
+  display: block;
+  border-radius: 20px;
+  height: 100%;
+}
+.chat-body .answer .name {
+  font-size: 14px;
+  line-height: 36px;
+}
+.chat-body .answer.left .text {
+  background: #ebebeb;
+  color: #333333;
+  border-radius: 8px 8px 8px 0;
+}
+.chat-body .answer .text {
+  padding: 12px;
+  font-size: 14px;
+  line-height: 26px;
+  position: relative;
+}
+.chat-body .answer.left .text:before {
+  left: -30px;
+  border-right-color: #ebebeb;
+  border-right-width: 12px;
+}
+.chat-body .answer .text:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border: 18px solid transparent;
+  border-bottom-width: 0;
+}
+
+.chat-body .answer.right {
+  padding: 0 58px 0 0;
+  text-align: right;
+  float: right;
+}
+
+.chat-body .answer.right .text {
+  background: #fff;
+  color: #000;
+  border-radius: 8px 8px 0 8px;
+}
+.chat-body .answer.right .text:before {
+  right: -30px;
+  border-left-color: #fff;
+  border-left-width: 12px;
+}
